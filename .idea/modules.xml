@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/task5/AgeCalculatorApp/AgeCalculatorApp.iml" filepath="$PROJECT_DIR$/task5/AgeCalculatorApp/AgeCalculatorApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task5/RegisterationForm/RegisterationForm.iml" filepath="$PROJECT_DIR$/task5/RegisterationForm/RegisterationForm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim.iml" filepath="$PROJECT_DIR$/.idea/full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task7/main/main.iml" filepath="$PROJECT_DIR$/task7/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task7/task7/task7.iml" filepath="$PROJECT_DIR$/task7/task7/task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6/task6/task6.iml" filepath="$PROJECT_DIR$/Task6/task6/task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task8/task8/task8.iml" filepath="$PROJECT_DIR$/task8/task8/task8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6/task6/src/main/untitled/untitled.iml" filepath="$PROJECT_DIR$/Task6/task6/src/main/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

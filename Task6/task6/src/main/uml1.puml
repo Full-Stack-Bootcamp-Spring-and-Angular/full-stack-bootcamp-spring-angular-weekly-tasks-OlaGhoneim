@@ -1,0 +1,21 @@
+@startuml
+class UserModel {
+  - username : String
+  - email : String
+  - password : String
+  - confirmPassword : String
+}
+
+class UserDao {
+  + save(user : UserModel) : int
+}
+
+class HomeController {
+  + processForm(userModel, bindingResult, model)
+}
+
+HomeController --> UserDao
+HomeController --> UserModel
+UserDao --> UserModel
+@enduml
+
