@@ -58,6 +58,5 @@
         <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="activation-1.1.1" level="project" />
   </component>
 </module>
