@@ -1,5 +1,5 @@
 package main.com.myApp.controller;
-import javax.validation.Valid;
+
 
 import main.com.myApp.dao.UserDao;
 import main.com.myApp.model.UserModel;
@@ -13,6 +13,8 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.validation.Valid;
 
 @Controller
 public class HomeController
