@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51bed38d-1cae-49f4-a3d2-85cfed8bd82f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task2/src/com/DatabaseOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/Catalina/localhost/ROOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/catalina.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/catalina.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/jaspic-providers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/jaspic-providers.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/tomcat-users.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.smarttomcat/task6/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/task2/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/task2/src/com/Main.java" afterDir="false" />
+    <list default="true" id="51bed38d-1cae-49f4-a3d2-85cfed8bd82f" name="Changes" comment="[feat] Add Spring bean scopes (singleton/prototype) and lifecycle (init/destroy) configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +22,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "OlaGhoneim"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OlaGhoneim&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Full-Stack-Bootcamp-Spring-and-Angular/full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim.git",
-    "accountId": "7e594f61-2872-43fa-a874-a925547ce4d6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Full-Stack-Bootcamp-Spring-and-Angular/full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim.git&quot;,
+    &quot;accountId&quot;: &quot;7e594f61-2872-43fa-a874-a925547ce4d6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3936lgtkebkACiRNyHSjVAjlE0h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,7 +51,7 @@
     "Application.task2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "task3",
+    "git-widget-placeholder": "#8 on task3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pc/IdeaProjects/course/full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim",
     "node.js.detected.package.eslint": "true",
@@ -114,11 +102,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769912560030</updated>
-      <workItem from="1769912561153" duration="1757000" />
+      <workItem from="1769912561153" duration="2700000" />
+      <workItem from="1770229783119" duration="1203000" />
     </task>
+    <task id="LOCAL-00001" summary="[feat] Add Spring bean scopes (singleton/prototype) and lifecycle (init/destroy) configuration">
+      <option name="closed" value="true" />
+      <created>1769914539321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769914539321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat] Add Spring bean scopes (singleton/prototype) and lifecycle (init/destroy) configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] Add Spring bean scopes (singleton/prototype) and lifecycle (init/destroy) configuration" />
   </component>
 </project>
