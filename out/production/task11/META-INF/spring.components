@@ -1,0 +1,2 @@
+Course=javax.persistence.Entity,javax.persistence.Table
+Student=javax.persistence.Entity,javax.persistence.Table

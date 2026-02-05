@@ -1,0 +1,4 @@
+Answer=javax.persistence.Entity,javax.persistence.Table
+Course=javax.persistence.Entity,javax.persistence.Table
+Instructor=javax.persistence.Entity,javax.persistence.Table
+Question=javax.persistence.Entity,javax.persistence.Table
