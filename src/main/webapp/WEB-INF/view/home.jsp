@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Welcome to the Home Page</h1>
-<p>This page is accessible to all users.</p>
+<p>This page is accessible to all users.No access for anyone</p>
 
 <!-- REPLACE your old form with this -->
 <form action="${pageContext.request.contextPath}/logoutTheUser" method="post">
