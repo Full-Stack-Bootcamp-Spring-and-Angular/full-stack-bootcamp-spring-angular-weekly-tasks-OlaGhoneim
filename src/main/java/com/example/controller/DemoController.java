@@ -22,5 +22,9 @@ public class DemoController {
     public String showLoginPage() {
         return "loginPage";
     }
+    @GetMapping("/accessDenied")
+    public String showAccessDenied() {
+        return "accessDenied";
+    }
 
 }

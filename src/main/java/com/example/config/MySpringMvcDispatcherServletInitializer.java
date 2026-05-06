@@ -45,7 +45,7 @@ public class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationC
         //Controllers
         //View resolvers
         //Web-specific config
-        return new Class[]{DemoAppConfig.class}; // use THIS config
+        return new Class[]{DemoAppConfig.class};
     }
 
     @Override

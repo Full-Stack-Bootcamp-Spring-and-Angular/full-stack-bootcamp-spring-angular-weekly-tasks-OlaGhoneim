@@ -41,8 +41,10 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 .loginPage("/showLoginPage")
                 .loginProcessingUrl("/authenticateTheUser")
+                .defaultSuccessUrl("/",true)
                 .permitAll()
                 .and()
+                .exceptionHandling().accessDeniedPage("/accessDenied").and()
                 .logout().
                 logoutUrl("/logoutTheUser")
                 .logoutSuccessUrl("/showLoginPage?logout")
