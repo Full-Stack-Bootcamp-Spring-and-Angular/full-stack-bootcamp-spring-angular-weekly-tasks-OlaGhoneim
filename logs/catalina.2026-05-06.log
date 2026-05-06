@@ -1,0 +1,644 @@
+06-May-2026 22:46:37.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:46:37.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=52530:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 22:46:37.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:46:37.578 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:46:37.578 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:46:37.578 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:46:37.583 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:46:37.746 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:46:37.756 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [306] milliseconds
+06-May-2026 22:46:37.779 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:46:37.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:46:37.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:46:37.819 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:46:39.383 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:46:39.531 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 22:46:40.668 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 22:46:40.710 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1179 ms
+06-May-2026 22:46:40.717 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 22:46:40.861 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d1fd2aa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c78e00c, org.springframework.security.web.context.SecurityContextPersistenceFilter@c3d4bd7, org.springframework.security.web.header.HeaderWriterFilter@7efa366, org.springframework.security.web.authentication.logout.LogoutFilter@2ae4c424, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f60c14e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2626aa35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ca8c904, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22b3b5d0, org.springframework.security.web.session.SessionManagementFilter@6c2f8ecb, org.springframework.security.web.access.ExceptionTranslationFilter@49bc71b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@becb93a]
+06-May-2026 22:46:41.194 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 477 ms
+06-May-2026 22:46:41.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,418] ms
+06-May-2026 22:46:41.206 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:46:41.218 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3461] milliseconds
+06-May-2026 22:47:07.052 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /favicon.ico
+06-May-2026 22:48:13.619 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:48:13.899 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 22:48:13.923 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:48:13.940 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:49:49.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:49:49.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:49:49.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:49:49.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:49:49.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51961:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 22:49:49.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:49:49.325 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:49:49.325 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:49:49.325 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:49:49.333 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:49:49.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:49:49.564 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [421] milliseconds
+06-May-2026 22:49:49.592 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:49:49.592 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:49:49.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:49:49.635 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:49:51.219 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:49:51.377 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:600)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:608)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1836)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:82)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:572)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:463)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:774)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:82)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:209)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:872)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:736)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:597)
+		... 37 more
+	Caused by: java.lang.IllegalStateException: Duplicate Filter registration for 'springSecurityFilterChain'. Check to ensure the Filter is only configured once.
+		at org.springframework.util.Assert.state(Assert.java:97)
+		at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.registerFilter(AbstractSecurityWebApplicationInitializer.java:195)
+		at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.insertSpringSecurityFilterChain(AbstractSecurityWebApplicationInitializer.java:140)
+		at org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer.onStartup(AbstractSecurityWebApplicationInitializer.java:115)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4479)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+06-May-2026 22:49:51.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [1,782] ms
+06-May-2026 22:49:51.385 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:49:51.665 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2100] milliseconds
+06-May-2026 22:51:19.267 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:51:19.543 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 22:51:19.544 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:51:19.547 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:51:24.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:51:24.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:51:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:51:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:51:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:51:24.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:51:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:51:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:51:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51694:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 22:51:24.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:51:24.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:51:24.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:51:24.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:51:24.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:51:24.706 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:51:24.717 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [325] milliseconds
+06-May-2026 22:51:24.741 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:51:24.741 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:51:24.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:51:24.785 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:51:26.381 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:51:26.494 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:600)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:608)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1836)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:82)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:572)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:463)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:774)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:726)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:82)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:209)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:872)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:736)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:597)
+		... 37 more
+	Caused by: java.lang.IllegalStateException: Failed to register servlet with name 'dispatcher'. Check if there is another servlet registered under the same name.
+		at org.springframework.web.servlet.support.AbstractDispatcherServletInitializer.registerDispatcherServlet(AbstractDispatcherServletInitializer.java:91)
+		at org.springframework.web.servlet.support.AbstractDispatcherServletInitializer.onStartup(AbstractDispatcherServletInitializer.java:64)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4479)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+06-May-2026 22:51:26.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [1,750] ms
+06-May-2026 22:51:26.501 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:51:26.768 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2050] milliseconds
+06-May-2026 22:53:15.465 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:53:15.729 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 22:53:15.730 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:53:15.733 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:56:28.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:56:28.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=51408:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 22:56:28.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:56:28.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:56:28.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:56:28.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:56:28.725 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:56:28.890 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:56:28.905 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [341] milliseconds
+06-May-2026 22:56:28.927 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:56:28.927 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:56:28.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:56:28.972 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:56:30.613 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:56:30.768 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 22:56:31.886 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 22:56:31.918 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1150 ms
+06-May-2026 22:56:31.961 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 22:56:32.100 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c34b0f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dfec0bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eba9e41, org.springframework.security.web.header.HeaderWriterFilter@184bb873, org.springframework.security.web.authentication.logout.LogoutFilter@526fc044, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ddba7a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13809363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@564d3940, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12eaa2cd, org.springframework.security.web.session.SessionManagementFilter@696ce057, org.springframework.security.web.access.ExceptionTranslationFilter@17fb5184, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54d46c8]
+06-May-2026 22:56:32.436 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 474 ms
+06-May-2026 22:56:32.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,511] ms
+06-May-2026 22:56:32.448 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:56:32.459 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3553] milliseconds
+06-May-2026 22:58:23.866 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:58:24.148 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 22:58:24.165 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:58:24.186 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:58:40.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:58:40.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=64775:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 22:58:40.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:58:40.067 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:58:40.067 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:58:40.067 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:58:40.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:58:40.280 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:58:40.296 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [394] milliseconds
+06-May-2026 22:58:40.328 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:58:40.328 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:58:40.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:58:40.367 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:58:42.010 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:58:42.162 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 22:58:43.279 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 22:58:43.312 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1150 ms
+06-May-2026 22:58:43.351 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 22:58:43.481 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c34b0f2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dfec0bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eba9e41, org.springframework.security.web.header.HeaderWriterFilter@184bb873, org.springframework.security.web.authentication.logout.LogoutFilter@526fc044, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ddba7a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13809363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@564d3940, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12eaa2cd, org.springframework.security.web.session.SessionManagementFilter@696ce057, org.springframework.security.web.access.ExceptionTranslationFilter@17fb5184, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54d46c8]
+06-May-2026 22:58:43.851 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 500 ms
+06-May-2026 22:58:43.861 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,525] ms
+06-May-2026 22:58:43.863 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:58:43.872 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3576] milliseconds
+06-May-2026 22:59:35.788 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:59:36.066 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 22:59:36.077 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:59:36.100 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:59:38.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 22:59:38.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59226,suspend=y,server=n
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 22:59:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\pc\AppData\Local\JetBrains\IntelliJIdea2024.3\captureAgent\debugger-agent.jar
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+06-May-2026 22:59:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 22:59:38.636 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 22:59:38.638 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 22:59:38.638 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 22:59:38.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 22:59:38.842 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:59:38.856 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [399] milliseconds
+06-May-2026 22:59:38.889 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 22:59:38.889 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 22:59:38.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 22:59:38.938 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 22:59:40.555 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 22:59:40.745 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 22:59:41.951 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38363e96, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35c95869, org.springframework.security.web.context.SecurityContextPersistenceFilter@49f41c2e, org.springframework.security.web.header.HeaderWriterFilter@3450bd13, org.springframework.security.web.authentication.logout.LogoutFilter@2245ccaa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4891d727, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ab39942, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57f89680, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@558aa1f1, org.springframework.security.web.session.SessionManagementFilter@4b5f022f, org.springframework.security.web.access.ExceptionTranslationFilter@34065642, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19de32cb]
+06-May-2026 22:59:41.988 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1242 ms
+06-May-2026 22:59:42.040 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 22:59:42.185 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@674fd531, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f53b345, org.springframework.security.web.context.SecurityContextPersistenceFilter@70f3bf00, org.springframework.security.web.header.HeaderWriterFilter@53f1fcc2, org.springframework.security.web.authentication.logout.LogoutFilter@22ea6051, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@703eead0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49770ef9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15bcecf9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76ee7301, org.springframework.security.web.session.SessionManagementFilter@6a261998, org.springframework.security.web.access.ExceptionTranslationFilter@4c6eaa65, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f2ad3d5]
+06-May-2026 22:59:42.534 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 494 ms
+06-May-2026 22:59:42.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,646] ms
+06-May-2026 22:59:42.547 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 22:59:42.560 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3704] milliseconds
+06-May-2026 23:00:21.302 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:00:21.589 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:00:21.603 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:00:21.624 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:00:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:00:34.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:00:34.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:00:34.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:00:34.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=55008:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:00:34.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:00:34.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:00:34.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:00:34.386 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:00:34.396 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:00:34.582 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:00:34.593 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [357] milliseconds
+06-May-2026 23:00:34.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:00:34.621 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:00:34.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:00:34.665 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:00:36.253 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:00:36.410 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:00:37.645 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40d370fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5868ea91, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f4f2cc0, org.springframework.security.web.header.HeaderWriterFilter@5e34a84b, org.springframework.security.web.authentication.logout.LogoutFilter@1782896, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63b0b3dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2431050d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a3a56de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@757c685d, org.springframework.security.web.session.SessionManagementFilter@37b80ec7, org.springframework.security.web.access.ExceptionTranslationFilter@762f8ff6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594c66c3]
+06-May-2026 23:00:37.984 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1574 ms
+06-May-2026 23:00:38.006 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:00:38.012 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 6 ms
+06-May-2026 23:00:38.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,391] ms
+06-May-2026 23:00:38.021 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:00:38.031 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3436] milliseconds
+06-May-2026 23:02:54.032 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:02:54.319 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:02:54.332 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:02:54.343 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:09:04.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:09:04.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:09:04.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:09:04.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:09:04.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:09:04.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:09:04.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:09:04.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:09:04.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=52913:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:09:04.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:09:04.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:09:04.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:09:04.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:09:04.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:09:04.901 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:09:04.911 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [424] milliseconds
+06-May-2026 23:09:04.943 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:09:04.943 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:09:04.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:09:04.982 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:09:06.552 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:09:06.700 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:09:07.856 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40d370fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5868ea91, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f4f2cc0, org.springframework.security.web.header.HeaderWriterFilter@5e34a84b, org.springframework.security.web.authentication.logout.LogoutFilter@1782896, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63b0b3dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2431050d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a3a56de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@757c685d, org.springframework.security.web.session.SessionManagementFilter@37b80ec7, org.springframework.security.web.access.ExceptionTranslationFilter@762f8ff6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594c66c3]
+06-May-2026 23:09:08.203 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1503 ms
+06-May-2026 23:09:08.239 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:09:08.245 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 6 ms
+06-May-2026 23:09:08.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,305] ms
+06-May-2026 23:09:08.257 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:09:08.267 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3355] milliseconds
+06-May-2026 23:09:45.610 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:09:45.884 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:09:45.896 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:09:45.916 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:12:43.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:12:43.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:12:43.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:12:43.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=55329:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:12:43.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:12:43.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:12:43.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:12:43.546 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:12:43.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:12:43.789 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [397] milliseconds
+06-May-2026 23:12:43.813 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:12:43.813 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:12:43.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:12:43.854 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:12:45.372 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:12:45.524 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:12:46.709 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40d370fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5868ea91, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f4f2cc0, org.springframework.security.web.header.HeaderWriterFilter@5e34a84b, org.springframework.security.web.authentication.logout.LogoutFilter@1782896, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63b0b3dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2431050d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a3a56de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@757c685d, org.springframework.security.web.session.SessionManagementFilter@37b80ec7, org.springframework.security.web.access.ExceptionTranslationFilter@762f8ff6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594c66c3]
+06-May-2026 23:12:47.051 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1527 ms
+06-May-2026 23:12:47.098 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:12:47.104 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 6 ms
+06-May-2026 23:12:47.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,293] ms
+06-May-2026 23:12:47.114 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:12:47.125 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3335] milliseconds
+06-May-2026 23:14:46.833 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:14:47.103 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:14:47.115 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:14:47.137 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:15:17.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:15:17.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=62312:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:15:17.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:15:17.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:15:17.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:15:17.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:15:17.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:15:17.974 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:15:17.979 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [381] milliseconds
+06-May-2026 23:15:18.010 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:15:18.010 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:15:18.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:15:18.049 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:15:19.494 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:15:19.679 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:15:22.352 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40d370fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5868ea91, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f4f2cc0, org.springframework.security.web.header.HeaderWriterFilter@5e34a84b, org.springframework.security.web.authentication.logout.LogoutFilter@1782896, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63b0b3dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2431050d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a3a56de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@757c685d, org.springframework.security.web.session.SessionManagementFilter@37b80ec7, org.springframework.security.web.access.ExceptionTranslationFilter@762f8ff6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594c66c3]
+06-May-2026 23:15:23.600 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 3921 ms
+06-May-2026 23:15:23.701 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:15:23.725 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 24 ms
+06-May-2026 23:15:23.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [5,740] ms
+06-May-2026 23:15:23.762 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:15:23.788 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5802] milliseconds
+06-May-2026 23:18:58.001 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:18:58.260 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:18:58.273 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:18:58.290 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:20:33.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:20:33.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:20:33.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:20:33.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:20:33.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:20:33.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:20:33.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=65196:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:20:33.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:20:33.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:20:33.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:20:33.964 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:20:33.970 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:20:34.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:20:34.227 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [456] milliseconds
+06-May-2026 23:20:34.265 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:20:34.266 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:20:34.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:20:34.318 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:20:35.863 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:20:36.016 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:20:37.073 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 23:20:37.102 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1086 ms
+06-May-2026 23:20:37.131 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:20:37.262 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45635ae1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7adbec34, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bf4dfb, org.springframework.security.web.header.HeaderWriterFilter@7852ab30, org.springframework.security.web.authentication.logout.LogoutFilter@6108fd23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@526fc044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8c3b634, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65259737, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aea57dc, org.springframework.security.web.session.SessionManagementFilter@417751d3, org.springframework.security.web.access.ExceptionTranslationFilter@3da61af2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58ad0586]
+06-May-2026 23:20:37.574 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 443 ms
+06-May-2026 23:20:37.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,309] ms
+06-May-2026 23:20:37.585 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:20:37.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3366] milliseconds
+06-May-2026 23:21:31.300 WARNING [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /asystem
+06-May-2026 23:21:46.277 WARNING [http-nio-8080-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /login
+06-May-2026 23:22:26.872 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:22:27.129 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:22:27.143 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:22:27.163 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:24:33.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:24:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:24:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:24:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:24:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:24:33.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:24:33.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:24:33.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=57646:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:24:33.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:24:33.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:24:33.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:24:33.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:24:33.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:24:33.368 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:24:33.379 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [423] milliseconds
+06-May-2026 23:24:33.409 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:24:33.409 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:24:33.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:24:33.447 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:24:34.935 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:24:35.071 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:24:36.111 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 23:24:36.165 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1094 ms
+06-May-2026 23:24:36.192 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:24:36.313 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45635ae1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7adbec34, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bf4dfb, org.springframework.security.web.header.HeaderWriterFilter@7852ab30, org.springframework.security.web.authentication.logout.LogoutFilter@6108fd23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@526fc044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8c3b634, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65259737, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aea57dc, org.springframework.security.web.session.SessionManagementFilter@417751d3, org.springframework.security.web.access.ExceptionTranslationFilter@3da61af2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58ad0586]
+06-May-2026 23:24:36.621 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 429 ms
+06-May-2026 23:24:36.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,214] ms
+06-May-2026 23:24:36.632 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:24:36.643 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3262] milliseconds
+06-May-2026 23:26:09.548 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:26:09.796 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:26:09.808 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:26:09.824 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:26:30.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.113
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 19:51:24 UTC
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.113.0
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\pc\.jdks\corretto-1.8.0_482\jre
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_482-b08
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:26:30.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\pc\Downloads\apache-tomcat-9.0.113-windows-x64\apache-tomcat-9.0.113
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\temp
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\logging.properties
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\lib\idea_rt.jar=50840:C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.3\bin
+06-May-2026 23:26:30.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+06-May-2026 23:26:30.141 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+06-May-2026 23:26:30.141 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-May-2026 23:26:30.141 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-May-2026 23:26:30.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+06-May-2026 23:26:30.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:26:30.341 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [338] milliseconds
+06-May-2026 23:26:30.362 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-May-2026 23:26:30.363 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.113]
+06-May-2026 23:26:30.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml]
+06-May-2026 23:26:30.399 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\target\classes] which is part of the web application []
+06-May-2026 23:26:31.846 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2026 23:26:31.987 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+06-May-2026 23:26:32.979 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbcc078, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c851821, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e1ea16d, org.springframework.security.web.header.HeaderWriterFilter@328e50eb, org.springframework.security.web.authentication.logout.LogoutFilter@582ca1e2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30ed2a26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2157889c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343727b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0930c4, org.springframework.security.web.session.SessionManagementFilter@ea84346, org.springframework.security.web.access.ExceptionTranslationFilter@63636de0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@60b4d934]
+06-May-2026 23:26:33.013 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1025 ms
+06-May-2026 23:26:33.066 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+06-May-2026 23:26:33.193 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45635ae1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7adbec34, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bf4dfb, org.springframework.security.web.header.HeaderWriterFilter@7852ab30, org.springframework.security.web.authentication.logout.LogoutFilter@6108fd23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@526fc044, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8c3b634, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65259737, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aea57dc, org.springframework.security.web.session.SessionManagementFilter@417751d3, org.springframework.security.web.access.ExceptionTranslationFilter@3da61af2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58ad0586]
+06-May-2026 23:26:33.488 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 422 ms
+06-May-2026 23:26:33.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\pc\IdeaProjects\course\full-stack-bootcamp-spring-angular-weekly-tasks-OlaGhoneim\Task18-Spring Security Roles & Authorization\conf\Catalina\localhost\ROOT.xml] has finished in [3,127] ms
+06-May-2026 23:26:33.498 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:26:33.506 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3164] milliseconds
+06-May-2026 23:27:23.821 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:27:24.075 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-May-2026 23:27:24.086 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-May-2026 23:27:24.112 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
